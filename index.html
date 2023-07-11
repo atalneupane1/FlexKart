@@ -17,16 +17,20 @@
     padding-top: 20px;
     margin: auto;
 }
-  .main-2{
+  
+.main-2{
     margin: auto;
-  }
-  .pic{
+}
+  
+.pic{
     padding-top: 30px;
-  }
-  .pic2>img{
+}
+
+.pic2 > img{
     padding-top: 30px;
     width: 100%;
 }
+  
 .wrapper{
   display: flex;
   max-width: 1200px;
@@ -35,6 +39,7 @@
   padding-top: 30px;
   padding-bottom: 0;
 }
+  
 .wrapper i{
   top: 50%;
   height: 44px;
@@ -50,19 +55,24 @@
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
+  
 .wrapper i:active{
   transform: translateY(-50%) scale(0.9);
 }
+  
 .wrapper i:hover{
   background: #f2f2f2;
 }
+  
 .wrapper i:first-child{
   left: -22px;
   display: none;
 }
+  
 .wrapper i:last-child{
   right: -22px;
 }
+  
 .wrapper .carousel{
   font-size: 0px;
   cursor: pointer;
@@ -70,13 +80,16 @@
   white-space: nowrap;
   scroll-behavior: smooth;
 }
+  
 .carousel.dragging{
   cursor: grab;
   scroll-behavior: auto;
 }
+  
 .carousel.dragging img{
   pointer-events: none;
 }
+  
 .carousel img{
   height: 180px;
   object-fit: cover;
@@ -84,14 +97,17 @@
   margin-left: 14px;
   width: calc(100% / 3);
 }
+  
 .carousel img:first-child{
   margin-left: 0px;
 }
+  
 @media screen and (max-width: 900px) {
   .carousel img{
     width: calc(100% / 2);
   }
 }
+  
 @media screen and (max-width: 550px) {
   .carousel img{
     width: 100%;
